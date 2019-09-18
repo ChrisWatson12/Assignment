@@ -11,7 +11,11 @@
     "prop-types": "^15.7.2",
     "react": "16.8.6",
     "react-native": "0.60.5",
-    "react-native-maps": "0.25.0"
+    "react-native-maps": "0.25.0",
+    "react-redux": "^7.1.1",
+    "redux": "^4.0.4",
+    "redux-observable": "^1.2.0",
+    "rxjs": "^6.5.3"
   },
   "devDependencies": {
     "@babel/core": "^7.6.0",

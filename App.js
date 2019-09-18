@@ -1,16 +1,12 @@
-import React, {Fragment} from 'react';
-import {SafeAreaView} from 'react-native';
-import {GoogleMapView} from './src/components/GoogleMapView';
-import SearchInput from './src/components/SearchInput';
+import React from 'react';
+import {Provider} from 'react-redux';
+import DashBoard from './src/containers/Dashboard';
+import store from './src/redux/store';
 
-const App = () => {
-  return (
-    <Fragment>
-      <SafeAreaView style={{backgroundColor: 'white'}} />
-      <GoogleMapView />
-      <SearchInput clearButtonMode={'while-editing'} />
-    </Fragment>
-  );
-};
+const App = () => (
+  <Provider store={store}>
+    <DashBoard />
+  </Provider>
+);
 
 export default App;
