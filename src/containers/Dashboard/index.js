@@ -12,8 +12,8 @@ const autoCompleteInputRef = createRef();
 
 const DashBoard = props => {
   const [marker, changeMarker] = useState({
-    latitude: 37.78825,
-    longitude: -122.4324,
+    latitude: 30.704649,
+    longitude: 76.717873,
     ...latLngDelta,
   });
   const {searchPlaces, clearPlaces, placesData, errorMsg, isLoading} = props;
