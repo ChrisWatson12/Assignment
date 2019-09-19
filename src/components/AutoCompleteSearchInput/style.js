@@ -8,19 +8,10 @@ import {
 // e.g. hp(5) or hp('5%')
 export const styles = StyleSheet.create({
   inputContainer: {
-    position: 'absolute',
-    top: hp(6),
-    left: wp(3),
-    right: wp(3),
+    marginHorizontal: wp(2),
   },
   txtInput: {
-    height: hp(5),
-    shadowOffset: {
-      height: 5,
-      width: 5,
-    },
-    shadowRadius: 5,
-    shadowOpacity: 0.2,
+    height: hp(6),
     backgroundColor: 'white',
   },
   defaultInput: {
@@ -29,7 +20,28 @@ export const styles = StyleSheet.create({
   },
   listContainer: {
     backgroundColor: 'white',
-    marginVertical: hp(1),
+    marginTop: hp(1),
+    marginBottom: hp(4),
+  },
+  listItem: {
+    borderBottomWidth: 1,
+    borderBottomColor: 'grey',
+  },
+  placeTxt: {
+    fontSize: hp(2),
+    fontWeight: '500',
+    paddingVertical: hp(2),
+    paddingHorizontal: wp(2),
+  },
+  loadingCloseContainer: {
+    flexDirection: 'row',
+    height: hp(6),
+    position: 'absolute',
+    right: 0,
+    paddingHorizontal: wp(3),
+    justifyContent: 'center',
+  },
+  cardStyle: {
     shadowOffset: {
       height: 5,
       width: 5,
@@ -37,10 +49,18 @@ export const styles = StyleSheet.create({
     shadowRadius: 5,
     shadowOpacity: 0.2,
   },
-  placeTxt: {
-    fontSize: hp(2),
-    fontWeight: '500',
-    paddingVertical: hp(2),
-    paddingHorizontal: wp(2),
+  closeIcon: {
+    height: hp(2),
+    width: hp(2),
+  },
+  closeBtn: {
+    marginHorizontal: wp(2),
+    alignSelf: 'center',
+  },
+  closeBtnSlop: {
+    top: hp(1),
+    bottom: hp(1),
+    left: wp(2),
+    right: wp(2),
   },
 });

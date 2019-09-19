@@ -9,7 +9,7 @@ import {API_URL, API_PARAMS, GOOGLE_PLACES_API_KEY} from '../../config';
 export const autoCompleteSearchEpic = action$ =>
   action$.pipe(
     ofType(FETCH_PLACES),
-    debounceTime(1000),
+    debounceTime(500),
     switchMap(({queryText}) =>
       ajax
         .getJSON(
