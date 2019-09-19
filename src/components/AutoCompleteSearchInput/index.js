@@ -60,11 +60,17 @@ const AutoCompleteSearchInput = forwardRef((props, ref) => {
 AutoCompleteSearchInput.propTypes = {
   customContainerStyle: ViewPropTypes.style,
   customInputStyle: PropTypes.object,
+  listData: PropTypes.array,
+  loading: PropTypes.bool,
+  onPressListItem: PropTypes.func,
 };
 
 AutoCompleteSearchInput.defaultProps = {
   placeholder: locale.search,
   customInputStyle: styles.defaultInput,
+  listData: [],
+  loading: false,
+  onPressListItem: () => {},
 };
 
 export default memo(AutoCompleteSearchInput);
