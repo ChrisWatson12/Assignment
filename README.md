@@ -445,8 +445,11 @@ So i think main things covered up in above documentation there are some major po
 
 ```
 • I haven't laptop in my room nowdays, and arranged a laptop from friend.
-• I just give my 2 to 3 hours maximum per day so its really greate challenge for me.
-• So i need to complete my assignment before 20 Sep 2019 9:00 AM. Because my friend need his laptop urgent, so finally am done with this. I know there is lots of things that could be written more proficiency. But i don't have time to do this.
+• I just give my 2 to 3 hours maximum per day so its really great challenge for me.
+• So i need to complete my assignment before 20 Sep 2019 9:00 AM. 
+  Because my friend need his laptop urgent,so finally am done with this. 
+  I know there is lots of things that could be written more proficiency. 
+  But i don't have time to do this.
 
 ```
 
