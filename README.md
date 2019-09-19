@@ -450,9 +450,8 @@ So i think main things covered up in above documentation there are some major po
 
 ```
 
+# Best Regard
 ```
-* Best Regard *
 Kulbhushan Singh.
-
 ```
 
