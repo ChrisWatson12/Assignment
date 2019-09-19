@@ -22,11 +22,8 @@ const DashBoard = props => {
     searchPlaces(input);
   };
 
-  const onSelectedPlace = ({
-    geometry: {
-      location: {lat: latitude, lng: longitude},
-    },
-  }) => {
+  const onSelectedPlace = item => {
+    const {lat: latitude, lng: longitude} = item.geometry.location;
     clearPlaces();
     autoCompleteInputRef.current.clear();
     changeMarker({latitude, longitude, ...latLngDelta});
