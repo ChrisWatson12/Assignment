@@ -24,7 +24,7 @@ const AutoCompleteSearchInput = forwardRef((props, ref) => {
     ...otherProps
   } = props;
 
-  const renderPlaceName = ({item}) => (
+  const renderItems = ({item}) => (
     <TouchableOpacity
       style={styles.listItem}
       onPress={() => onPressListItem(item)}>
@@ -49,8 +49,9 @@ const AutoCompleteSearchInput = forwardRef((props, ref) => {
       <FlatList
         style={[styles.listContainer, styles.cardStyle]}
         showsVerticalScrollIndicator={false}
+        bounces={false}
         data={listData}
-        renderItem={renderPlaceName}
+        renderItem={renderItems}
       />
     </View>
   );

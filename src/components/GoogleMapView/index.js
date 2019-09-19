@@ -6,7 +6,6 @@ const GoogleMapView = ({children, ...otherProps}) => (
   <MapView
     provider={PROVIDER_GOOGLE}
     style={styles.mapContainer}
-    showsUserLocation
     {...otherProps}>
     {children}
   </MapView>
